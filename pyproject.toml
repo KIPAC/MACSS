@@ -24,6 +24,7 @@ dependencies = [
     "scipy",
     "scikit-learn",
     "tables-io",
+    "corner",
     "jupyter",
 ]
 

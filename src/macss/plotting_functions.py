@@ -660,10 +660,11 @@ def plot_mag_spectra(
 
 def plot_mag_mag_scatter(t1, t2, bands, mask=None, norm="log"):
     fig = plt.figure()
-    axes = fig.subplots(2, 2)
+    nrow, ncol = get_subplot_nrow_ncol(len(bands))
+    axes = fig.subplots(nrow, ncol)
     for i, band in enumerate(bands):
-        icol = i % 2
-        irow = int(i / 2)
+        icol = i % ncol
+        irow = int(i / ncol)
         axs = axes[irow][icol]
         if mask is None:
             axs.hist2d(
@@ -689,10 +690,11 @@ def plot_mag_mag_scatter(t1, t2, bands, mask=None, norm="log"):
 
 def plot_mag_mag_resid(t1, t2, bands, mask=None, norm="log"):
     fig = plt.figure()
-    axes = fig.subplots(2, 2)
+    nrow, ncol = get_subplot_nrow_ncol(len(bands))
+    axes = fig.subplots(nrow, ncol)
     for i, band in enumerate(bands):
-        icol = i % 2
-        irow = int(i / 2)
+        icol = i % ncol
+        irow = int(i / ncol)
         axs = axes[irow][icol]
         if mask is None:
             axs.hist2d(
@@ -717,10 +719,11 @@ def plot_mag_mag_resid(t1, t2, bands, mask=None, norm="log"):
 
 def plot_color_scatter(t1, t2, bands, mask=None, norm="log"):
     fig = plt.figure()
-    axes = fig.subplots(2, 2)
+    nrow, ncol = get_subplot_nrow_ncol(len(bands))
+    axes = fig.subplots(nrow, ncol)
     for i, band in enumerate(bands):
-        icol = i % 2
-        irow = int(i / 2)
+        icol = i % ncol
+        irow = int(i / ncol)
         axs = axes[irow][icol]
         if mask is None:
             axs.hist2d(
@@ -745,10 +748,11 @@ def plot_color_scatter(t1, t2, bands, mask=None, norm="log"):
 
 def plot_color_resid(t1, t2, bands, mask=None, norm="log"):
     fig = plt.figure()
-    axes = fig.subplots(2, 2)
+    nrow, ncol = get_subplot_nrow_ncol(len(bands))
+    axes = fig.subplots(nrow, ncol)
     for i, band in enumerate(bands):
-        icol = i % 2
-        irow = int(i / 2)
+        icol = i % ncol
+        irow = int(i / ncol)
         axs = axes[irow][icol]
         if mask is None:
             axs.hist2d(
