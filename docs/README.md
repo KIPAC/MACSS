@@ -9,6 +9,7 @@ These instructions assume that you already have a conda installation on your com
 
 ```bash
 conda create -n macss python=3.12
+conda activate macss
 git clone https://github.com/KIPAC/MACSS.git
 cd MACSS
 pip install -e ".[dev]"
