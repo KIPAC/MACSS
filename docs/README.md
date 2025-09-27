@@ -40,7 +40,7 @@ Time permitting, I encourage you to
 5. run your estimator on a sample of objects without known redshifts and estimate the redshift distribution of that sample (Part VI)
 
 
-### Part I: Catalog data exploration and prepration
+### Part I: Catalog data exploration and prepartion
 
 Goals: explore the Rubin catalog data provided, and write some functions that will prepare catalog data for later analysis.
 
@@ -53,7 +53,7 @@ You will need to:
 4. convert from magnitudes to colors.
 
 
-### Part 2: Reference data exploration, 
+### Part 2: Reference data exploration 
 
 Goals: explore the Rubin photometric reference data provided, and understand some of the details, such as the limiting depth, the photo-metric uncertainties
 
