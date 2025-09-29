@@ -17,13 +17,11 @@ You will need to:
 
 
 
-
-
 If you want to see what things should look like, you can have a look:
 
-1. in the notebook [Extra_NoiseStudy.ipynb](https://github.com/KIPAC/MACSS/blob/main/nb/Extra_NoiseStudy.ipynb) to see examples of computing magnitudes and colors.
+1. in the notebook [Extra_NoiseStudy.ipynb](https://github.com/KIPAC/MACSS/blob/main/nb/Extra_NoiseStudy.ipynb) to see examples adding random photometric noise and seeing how it affects the p(z) estimation.
 
-2. in the notebook [Extra_AdmixStudy.ipynb](https://github.com/KIPAC/MACSS/blob/main/nb/Extra_AdmixStudy.ipynb) to see examples of computing magnitudes and colors.
+2. in the notebook [Extra_AdmixStudy.ipynb](https://github.com/KIPAC/MACSS/blob/main/nb/Extra_AdmixStudy.ipynb) to see examples adding contamination from other galaxies and seeing how it affects the p(z) estimation. 
 
 
 
