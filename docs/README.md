@@ -2,13 +2,21 @@
 
 Materials for the photometric redshift (PZ) project in the MACSS.
 
+## Lecture notes
+
+You can find accompanying lecture notes [here](https://docs.google.com/presentation/d/1QsfjYt2fiOyNml7GlGNttCo2a4OBmEKFWw-qN9L57dI/edit?usp=sharing).
+
 
 ## Installation
 
 These instructions assume that you already have a conda installation on your computer.
 
+If you need to install conda, you can find instructions online, e.g., [here](https://www.anaconda.com/docs/getting-started/miniconda/install).
+
+Open a terminal and do:
+
 ```bash
-conda create -n macss python=3.12
+conda create -n macss -y python=3.12
 conda activate macss
 git clone https://github.com/KIPAC/MACSS.git
 cd MACSS
@@ -16,7 +24,7 @@ pip install -e ".[dev]"
 ```
 
 
-Test the installation and download the data for the examples
+Test the installation and download the data for the examples:
 
 ```bash
 py.test
@@ -30,14 +38,15 @@ This will download the data, create a directory in your home directory called `m
 
 This project is quite open-ended, but I'd like to at least see everyone:
 
-1. explore both the Rubin catalog data (Part I) and the Reference data (Part II),
-2. make a photometric redshift estimator and test it's properties on objects with known redshifts (Part III)
+1. explore both the Rubin catalog data (Part I)
+2.  and the Reference data (Part II),
+3. make a photometric redshift estimator and test it's properties on objects with known redshifts (Part III)
 
 Time permitting, I encourage you to 
 
-3. investigate a few ways you might improve the performance of the estimator (Part IV)
-4. characterize how well the estimator does with imperfect data (Part V)
-5. run your estimator on a sample of objects without known redshifts and estimate the redshift distribution of that sample (Part VI)
+4. investigate a few ways you might improve the performance of the estimator (Part IV)
+5. characterize how well the estimator does with imperfect data (Part V)
+6. run your estimator on a sample of objects without known redshifts and estimate the redshift distribution of that sample (Part VI)
 
 [More general information about the project](./intro.md)
 
