@@ -12,12 +12,15 @@ If you want to see what things should look like, you can have a look:
 1. in the notebook [00_ExploreFluxes.ipynb](https://github.com/KIPAC/MACSS/blob/main/nb/00_ExploreFluxes.ipynb) to see examples of computing magnitudes and colors.
 
 
-Specfics:  The Rubin catalog data provides several different object fluxes, rather than magnitudes, and is does not account for the redenning cause by galactic dust.
+Specifics:  The Rubin catalog data provides several different object fluxes, rather than magnitudes, and is does not account for the redenning cause by galactic dust.
 You will need to:
 
 1. investigate the contents of the Rubin object catalog,
 2. convert fluxes and flux errors to magnitudes and magnitude errors,
-3. account for galacitic redenning,
+3. account for galactic redenning,
 4. convert from magnitudes to colors.
 
 
+
+<!--  LocalWords:  macss nb 00_ExploreFluxes.ipynb
+ -->

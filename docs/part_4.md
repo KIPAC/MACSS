@@ -2,7 +2,7 @@
 
 Goals: investigate if you can improve your regression model using additional fluxes or morphology information 
 
-Specfics: The data that I provided contain some additional information that might be useful in redshift estimation, such as the sizes of the galaxies, and the different flux measurements are senstived to light from different parts of the galaxys.
+Specifics: The data that I provided contain some additional information that might be useful in redshift estimation, such as the sizes of the galaxies, and the different flux measurements are sensitive to light from different parts of the galaxies.
 
 You will need to:
 
@@ -29,3 +29,8 @@ If you want to see what things should look like, you can have a look:
 
 
 
+
+<!--  LocalWords:  07_GalaxySize.ipynb 08_Morphology.ipynb
+ -->
+<!--  LocalWords:  09_CosmoSize.ipynb 10_SklearnMorphology.ipynb
+ -->
