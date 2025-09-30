@@ -33,6 +33,15 @@ py.test
 This will download the data, create a directory in your home directory called `macss` and put the data there.
 
 
+To start a jupyter session in the MACSS/nb directory that you can use
+to run notebooks.
+
+```bash
+conda activate macss  # if you have not already done so in that shell
+jupyter-notebook nb
+```
+
+
 ## Project Overview
 
 
