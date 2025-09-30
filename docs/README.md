@@ -51,13 +51,33 @@ This project is quite open-ended, but I'd like to at least see everyone:
 2.  and the Reference data (Part II),
 3. make a photometric redshift estimator and test it's properties on objects with known redshifts (Part III)
 
-Time permitting, I encourage you to 
+Time permitting, I encourage you to: 
 
 4. investigate a few ways you might improve the performance of the estimator (Part IV)
 5. characterize how well the estimator does with imperfect data (Part V)
 6. run your estimator on a sample of objects without known redshifts and estimate the redshift distribution of that sample (Part VI)
 
 [More general information about the project](./intro.md)
+
+
+
+### Setting up to start working your project.
+
+I encourage you to start a presentation or a google slide deck to take
+notes as you work.   This will make it much easier to remember what
+you did and to write up your work for presentation.   You can put
+figures that you make along the way directly into that document.
+
+
+I also encourage you to have a quick look at the `src/macss` area in the MACSS
+github project:
+[https://github.com/KIPAC/MACSS/tree/main/src/macss](https://github.com/KIPAC/MACSS/tree/main/src/macss).
+
+That area contains a lot of functions that are used in the various
+examples.   It is useful for you to write your own versions of some of
+those functions to get practice doing this, but if you get stuck, you
+can always look at those functions for help.
+
 
 
 ### Part I: Catalog data exploration and preparation
