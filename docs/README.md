@@ -31,6 +31,10 @@ py.test
 ```
 
 This will download the data, create a directory in your home directory called `macss` and put the data there.
+*You should check to make sure that the data have been succesfully downloaded*.
+
+If the data did not download, you can download them by hand from [https://s3df.slac.stanford.edu/people/echarles/xfer/macss.tgz](https://s3df.slac.stanford.edu/people/echarles/xfer/macss.tgz).
+
 
 
 To start a jupyter session in the MACSS/nb directory that you can use
