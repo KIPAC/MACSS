@@ -49,10 +49,10 @@ write_to = "src/macss/_version.py"
 
 [tool.pytest.ini_options]
 testpaths = [
-    "tests",
+    "test",
 ]
 addopts = [
-    "--cov=maccs",
+    "--cov=macss",
     "--cov-report=html"
 ]
 
