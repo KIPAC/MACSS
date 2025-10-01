@@ -403,10 +403,14 @@ def build_template_dict(
     redshifts (N), mags (N, N_filter), colors (N, N_filter-1), sed_index
     """
     template_dict = {}
+
+    HOME = os.environ['HOME']
+    pz_dir = f"{HOME}/macss"
+    
     for ised, sed in enumerate(seds):
         mag_data_list = []
         for filter_ in filters:
-            path = f"examples_data/estimation_data/data/AB/{sed}.{filter_}.AB"
+            path = f"{pz_dir}/data/AB/{sed}.{filter_}.AB"
             data = np.loadtxt(path)
             _redshifts = data[:, 0]
             mags = fluxes_to_mags(data[:, 1], 31.4)
