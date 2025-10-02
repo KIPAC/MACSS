@@ -1,5 +1,7 @@
 # MACSS PZ Project
 
+![Redshifts](./images/PZ.jpeg)
+
 Materials for the photometric redshift (PZ) project in the MACSS.
 
 ## Lecture notes
