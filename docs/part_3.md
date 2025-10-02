@@ -1,5 +1,7 @@
 ### Part 3: Creating and testing photometric redshift estimator
 
+<img src="./images/estimator.jpeg" height="200">
+
 Goals: create a photometric redshift estimator using the scikit-learn tool-kit and test it out
 
 Specifics: I have provided you with some prepared photometric reference data, which includes cross-matched objects with known redshifts.   You will want to:

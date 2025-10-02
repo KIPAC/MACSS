@@ -1,11 +1,8 @@
-## Part 2: Reference data exploration, 
+## Part 2: Reference data exploration
+
+<img src="./images/catalog_data2.jpeg" height="200">
 
 Goals: explore the Rubin photometric reference data provided, and understand some of the details, such as the limiting depth, the photometric uncertainties.
-
-If you have run the installation, you should have a directory called `macss/data` off you your home directory.  It contains some data we will be using.
-
-Open the notebook `nb/Project_Part2.ipynb` to find a notebook you can work on this second part of the project in.
-
 
 Specifics: I have provided you with some prepared photometric reference data, which includes cross-matched objects with known redshifts.   You will want to:
 
@@ -13,6 +10,7 @@ Specifics: I have provided you with some prepared photometric reference data, wh
 2. understand the limitations of the data, such as the limiting depth, the incompleteness of the reference data sets, and the limited spatial resolution.
 
 
+Open the notebook `nb/Project_Part2.ipynb` to find a notebook you can work on this second part of the project in.
 
 If you want to see what things should look like, you can have a look:
 

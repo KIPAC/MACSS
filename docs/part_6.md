@@ -1,5 +1,7 @@
 ### Part 6: Going from per-object estimates to ensemble estimates
 
+<img src="./images/nz.jpeg" height="200">
+
 Goals: go from per-object estimates to estimates of the distribution
 of p(z) for an ensemble of objects. 
 
@@ -15,3 +17,6 @@ You will want to:
 2. apply the same methodology to a sample of object that we do not have reference redshifts for.
 3. consider the systematic different between the test sample and the
    broader sample and how we might account for those.
+
+
+Open the notebook `nb/Project_Part6.ipynb` to find a notebook you can work on this second part of the project in.

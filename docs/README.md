@@ -11,41 +11,7 @@ You can find accompanying lecture notes [here](https://docs.google.com/presentat
 
 ## Installation
 
-These instructions assume that you already have a conda installation on your computer.
-
-If you need to install conda, you can find instructions online, e.g., [here](https://www.anaconda.com/docs/getting-started/miniconda/install).
-
-Open a terminal and do:
-
-```bash
-conda create -n macss -y python=3.12
-conda activate macss
-git clone https://github.com/KIPAC/MACSS.git
-cd MACSS
-pip install -e ".[dev]"
-```
-
-
-Test the installation and download the data for the examples:
-
-```bash
-py.test
-```
-
-This will download the data, create a directory in your home directory called `macss` and put the data there.
-*You should check to make sure that the data have been succesfully downloaded*.
-
-If the data did not download, you can download them by hand from [https://s3df.slac.stanford.edu/people/echarles/xfer/macss.tgz](https://s3df.slac.stanford.edu/people/echarles/xfer/macss.tgz).
-
-
-
-To start a jupyter session in the MACSS/nb directory that you can use
-to run notebooks.
-
-```bash
-conda activate macss  # if you have not already done so in that shell
-jupyter-notebook nb
-```
+[Software installation instructions][./installation.md]
 
 
 ## Project Overview
@@ -111,7 +77,6 @@ Specifics: I have provided you with some prepared photometric reference data, wh
 2. understand the limitations of the data, such as the limiting depth, the incompleteness of the reference data sets, and the limited spatial resolution.
 
 [More information about part 2 of the project](./part_2.md)
-
 
 
 ### Part 3: Creating and testing photometric redshift estimator

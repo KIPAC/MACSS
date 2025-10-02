@@ -1,5 +1,7 @@
 ### Part 4: Investigating ways to improve your regression model
 
+<img src="./images/improved_models.jpeg" height="200">
+
 Goals: investigate if you can improve your regression model using additional fluxes or morphology information 
 
 Specifics: The data that I provided contain some additional information that might be useful in redshift estimation, such as the sizes of the galaxies, and the different flux measurements are sensitive to light from different parts of the galaxies.
@@ -12,6 +14,7 @@ You will need to:
 4. try to add this morphology information to a redshift estimation algorithm.
 
 
+Open the notebook `nb/Project_Part4.ipynb` to find a notebook you can work on this second part of the project in.
 
 If you want to see what things should look like, you can have a look:
 

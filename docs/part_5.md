@@ -1,5 +1,7 @@
 ### Part 5: Investigating how your regression model does with imperfect data
 
+<img src="./images/imperfect_data.jpeg" height="200">
+
 Goals: characterize how sensitive the model is to imperfect input data 
 
 Specifics:  The test and training data is somewhat idealized, in that
@@ -15,6 +17,8 @@ You will need to:
    from nearby galaxies
 3. see how these smearing affect the photometric redshift measurements.
 
+
+Open the notebook `nb/Project_Part5.ipynb` to find a notebook you can work on this second part of the project in.
 
 
 If you want to see what things should look like, you can have a look:
