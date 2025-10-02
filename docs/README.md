@@ -1,6 +1,6 @@
 # MACSS PZ Project
 
-![Redshifts](./images/PZ.jpeg)
+<img src="./images/PZ.jpeg" height="100">
 
 Materials for the photometric redshift (PZ) project in the MACSS.
 
